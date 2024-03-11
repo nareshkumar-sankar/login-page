@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:"poppins", sans-serif;
+    color:#dedcdc;
+}
+
+body{
+    background-color: green;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(trees-975091.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.root{
+    border: 1px solid rgb(96, 96, 96);
+    width: 420px;
+    padding: 10px 20px;
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+}
+.root h1{
+    text-align: center;
+    color: #585858;
+}
+.input-box{
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+    position: relative;
+}
+.input-box input{
+    width: 97%;
+    height: 100%;
+    border: none;
+    border: 2px solid rgb(108, 108, 108);
+    outline: none;
+    border-radius: 50px;
+    background-color: transparent;
+    font-size: 16px;
+    color:#dedcdc;
+    padding-left: 10px;
+}
+input::placeholder{
+    color:#dedcdc;
+    text-align:start;
+}
+.input-box i{
+    position: absolute;
+    right: 20px;
+    top: 18px;
+    font-size: 20px;
+    color:#dedcdc;
+}
+.check-box{
+    display: flex;
+    justify-content: space-between;
+}
+.check-box label{
+    cursor: pointer;
+    color:#dedcdc;
+}
+.check-box a{
+    text-decoration: none;
+}
+.check-box a:hover{
+    text-decoration: underline;
+}
+.login-btn{
+    width: 100%;
+    height: 50px;
+    border-radius: 50px;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    color: #585858;
+    background-color: transparent;
+    cursor: pointer;
+    transition: 0.4s;
+    font-size: 16px;
+    background-color: #fff;
+    font-weight: 500;
+}
+.login-btn:hover{
+    font-size: 18px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    color: #585858;
+}
+.register{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+  
+}
+.register a,i{
+    text-decoration: none;
+    transition: 0.5s;
+    color: #1d1c1c;
+}
+.register i{
+    position: absolute;
+    top:5px;
+    left: 345px;
+}
+.register a:hover i{
+    transform: translateX(10px);
+}
+
+
+
+
+
